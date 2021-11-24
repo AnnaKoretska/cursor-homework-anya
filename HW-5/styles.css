@@ -15,7 +15,11 @@
     margin-left: 300px;
 }
 
-.table{
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-container{
     background: #2c2c2c;
     color: #fff;
     border-radius: 8px;
@@ -23,8 +27,8 @@
     border-radius: 4px;
     border-style: hidden;
     box-shadow: 0 0 0 1px #525252;
-    width: 72%;
     margin-bottom: 48px;
+    width: 72%;
 }
 
 .minus-icon{
